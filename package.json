@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "pym-app",
+=======
+  "name": "telecom-web-project",
+>>>>>>> 26ac598 (Initial commit from Create Next App)
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +13,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@radix-ui/react-label": "^2.0.2",
     "@radix-ui/react-slot": "^1.0.2",
     "axios": "^1.6.3",
@@ -24,14 +29,29 @@
   },
   "devDependencies": {
     "@types/axios": "^0.14.0",
+=======
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "14.0.4"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+>>>>>>> 26ac598 (Initial commit from Create Next App)
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
+<<<<<<< HEAD
     "eslint": "^8",
     "eslint-config-next": "14.0.4",
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
+=======
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4"
+>>>>>>> 26ac598 (Initial commit from Create Next App)
   }
 }
