@@ -13,7 +13,11 @@ const labelVariants = cva(
 const Label = React.forwardRef<
   React.ElementRef<typeof LabelPrimitive.Root>,
   React.ComponentPropsWithoutRef<typeof LabelPrimitive.Root> &
+<<<<<<< HEAD:src/components/ui/label.tsx
   VariantProps<typeof labelVariants>
+=======
+    VariantProps<typeof labelVariants>
+>>>>>>> a362b7c (JWT complete):components/ui/label.tsx
 >(({ className, ...props }, ref) => (
   <LabelPrimitive.Root
     ref={ref}

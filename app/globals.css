@@ -15,6 +15,7 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+<<<<<<< HEAD
 
 body {
   color: rgb(var(--foreground-rgb));
@@ -24,4 +25,18 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+=======
+ 
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+.leaflet-container {
+  width: 100%;
+  height: 50vh;
+>>>>>>> a362b7c (JWT complete)
 }
